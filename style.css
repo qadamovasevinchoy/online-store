@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: sans-serif;
+}
+.main-display{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(239, 137, 64);
+    height: 50px;
+    position: fixed;
+    width: 100%;
+}
+.top-display{
+    display: flex;
+    margin-left: 90px;
+ }
+ .left-side, ul, li{
+     display: flex;
+     align-items: center;
+     gap: 50px;
+     margin-right: 20px;
+     
+ }
+ .left-side,a{
+    text-decoration: none;
+    color: white;
+ }
+ .left-side,a:hover{
+    color: rgb(201, 10, 208);
+ }
+ .navbar-list-child{
+    position: absolute;
+    background-color:coral;
+    margin-left:2rem ;
+    display: none;
+    margin-top: 140px;
+    padding-left: 5px;
+}
+.navbar-list-child li {
+    padding: 10px;
+}
+.navbar-list-child li:hover{
+    background-color: #8000ff;
+    color: white;
+}
+.navbar-list-item:hover .navbar-list-child{
+    display: block;
+}
+.first-container{
+    background-color: #F15BB5;
+    width: 100%;
+    height: 100vh;
+}
+.center-display{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 150px;
+    width: 100%;
+    
+}
+.ice-cream-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%; 
+    
+}
+.lorem-display {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 50%;
+}
+.lorem-display p{
+    font-size: 50px;
+    font-style: oblique;
+    text-align: center;
+}
+.lorem-display button{
+    background-color:#F15BB5 ;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 2px solid black;
+    font-weight: 700;
+    margin: 10px 40%;
+}
+.lorem-display button:hover{
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+}
+.second-container{
+    background-color:  #FEE440;
+    width: 100%;
+    height: 90vh;
+    
+}
+.choco-display{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px;
+    width: 100%;
+}
+.second-left-side{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 50px;
+    font-style: oblique;
+    text-align: center;
+}
+.second-left-side button{
+    background-color:#FEE440 ;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 2px solid black;
+    font-weight: 600;
+}
+.second-left-side button:hover{
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+}
+.right-side{
+    margin-left: 50px;
+}
+.right-side img {
+    width: 650px;
+    
+}
+
+.third-container{
+    background-color:  #9B5DE5;
+    width: 100%;
+    height: 100vh;
+}
+.drink-display{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10% ;
+    width: 100%;
+}
+.right-text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 50%;
+}
+.right-text p{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 50px;
+    font-style: oblique;
+    text-align: center;
+}
+.right-text  button{
+    background-color:#9B5DE5 ;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: 2px solid black;
+    font-weight: 600;
+    margin: 10px 40%;
+}
+.right-text  button:hover{
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+}
+footer{
+    background-color:  rgb(25, 24, 44);
+    width: 100%;
+    height: 20vh;
+    color: white;
+
+}
+.overall{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.first-logo img{
+    margin-top: 20px;
+    width: 200px;
+}
+.first-logo p{
+  padding-top: -40px;
+}
+.second-step ul {
+    display: inline-block;
+   align-items: center;
+}
+.second-step ul li {
+    font-size: 15px;
+    line-height: 30px;
+}
+.websites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    gap: 30px;
+}
