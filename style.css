@@ -5,6 +5,10 @@
     user-select: none;
     font-family: sans-serif;
 }
+
+.activ{
+    color: #8000ff !important;
+}
 .main-display{
     display: flex;
     justify-content: space-between;
